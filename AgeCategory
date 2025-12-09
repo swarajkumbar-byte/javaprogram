@@ -1,0 +1,29 @@
+package JavaProgram;
+
+public class AgeCategory {
+    public static void main(String[] args) {
+
+        int age = 0;
+
+        while (age <= 70) {   
+
+            if (age >= 0 && age <= 12) {
+                System.out.println(age + " : Kid");
+            }
+            else if (age >= 13 && age <= 19) {
+                System.out.println(age + " : Teenager");
+            }
+            else if (age >= 20 && age <= 40) {
+                System.out.println(age + " : Youngster");
+            }
+            else if (age >= 41 && age <= 55) {
+                System.out.println(age + " : Aged man");
+            }
+            else if (age >= 56 && age <= 70) {
+                System.out.println(age + " : Old man");
+            }
+
+            age++;  
+        }
+    }
+}
