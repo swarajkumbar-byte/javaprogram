@@ -1,0 +1,23 @@
+package Javaprogram;
+
+public class ArrayChcek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {6, 2, 3, 4};   // sample array
+
+        if(arr.length >= 1) {
+            if(arr[0] == 6 || arr[arr.length - 1] == 6) {
+                System.out.println(true);
+            } else {
+                System.out.println(false);
+            }
+        } else {
+            System.out.println("Array length is less than 1");
+        }
+    }
+
+
+	}
+
+
