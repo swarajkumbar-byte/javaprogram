@@ -1,0 +1,30 @@
+package javaprogram;
+
+import java.util.Scanner;
+public class Billdiscount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		     Scanner sc = new Scanner(System.in);
+
+		        System.out.print("Enter bill amount: ");
+		        double amount = sc.nextDouble();
+		        double discount = 0;
+
+		        if (amount > 2000) {
+		            discount = amount * 0.15;   
+		        } else if (amount > 1000) {
+		            discount = amount * 0.10;   
+		        } else {
+		            discount = 0;               
+		        }
+
+		        double finalAmount = amount - discount;
+
+		        System.out.println("Final Amount = " + finalAmount);
+		    }
+		
+
+	}
+
+
