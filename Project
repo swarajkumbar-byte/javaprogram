@@ -1,0 +1,18 @@
+package Javaprogram;
+
+public class project {
+
+public static void main (String []args) {
+int i= 10;
+
+// Automatic Casting from int to long
+long I = i;
+
+//l Automatic Casting from int to double
+double d = i;
+
+System.out.println("int i="+i);
+System.out.println("long I= " +i);
+System.out.println("double d=" +d);
+ }
+}
