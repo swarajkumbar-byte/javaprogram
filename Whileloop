@@ -1,0 +1,31 @@
+package Javaprogram;
+import java.util.Scanner;
+
+public class Whileloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	int x=1234;
+	while(x<20) {
+	System.out.println("x="+x);
+		x=x+5;
+	}
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your password");
+		int i=sc.nextInt();
+		
+		do {
+			if(i==0)
+			System.out.println("Enter your password:");
+			else
+				System.out.println("Incorrect password:");
+			i=sc.nextInt();
+		}while(i!=1234);
+		System.out.println("Correct pwd.");
+			
+			
+		}
+
+	}
+
+
